@@ -86,21 +86,22 @@
 
 /* Side Bar Css */
 
-.animation-open{
+.animation-open {
     animation: OpenSlider 0.5s ease forwards;
 }
-.animation-close{
+
+.animation-close {
     animation: CloseSlider 0.5s ease forwards;
 }
 
 .text-fade-in {
-  opacity: 1;
-  transition: opacity 0.5s ease;
+    opacity: 1;
+    transition: opacity 0.5s ease;
 }
 
 .text-fade-out {
-  opacity: 0;
-  transition: opacity 0.5s ease;
+    opacity: 0;
+    transition: opacity 0.5s ease;
 }
 
 
@@ -168,26 +169,28 @@
     background-color: white;
 }
 
-.btn-0-1{
+.btn-0-1 {
     background-color: transparent;
     border: 1px solid white;
     color: white;
 }
 
 @keyframes OpenSlider {
-    from{
+    from {
         width: 0;
     }
-    to{
+
+    to {
         width: 90%;
     }
 }
 
 @keyframes CloseSlider {
-    to{
+    to {
         width: 0;
     }
-    from{
+
+    from {
         width: 90%;
     }
 }
@@ -290,26 +293,26 @@
 
 /* Header Start */
 #img-slider {
-  width: 100%;
-  height: 300px;
-  overflow: hidden;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
 }
 
 #slider-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: opacity 1s ease-in-out;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 1s ease-in-out;
 }
 
-.mobile-img{
+.mobile-img {
     display: flex;
     width: 100%;
     height: 700px;
     transition: opacity 1s ease-in-out;
 }
 
-.desktop-img{
+.desktop-img {
     display: none;
     width: 100%;
     height: 700px;
@@ -318,21 +321,22 @@
 }
 
 @media (min-width:413px) {
-    .desktop-img{
+    .desktop-img {
         display: flex;
     }
-    .mobile-img{
+
+    .mobile-img {
         display: none;
     }
 }
 
-.main-header-2{
+.main-header-2 {
     /* background-color: brown; */
     width: 100%;
     height: 800px;
 }
 
-.heading-box{
+.heading-box {
     width: 100%;
     height: 150px;
     background-color: white;
@@ -343,11 +347,11 @@
     align-items: center;
 }
 
-.heading-2{
+.heading-2 {
     margin-left: 8%;
 }
 
-.product-box-1{
+.product-box-1 {
     /* background-color: red; */
     width: 100%;
     height: 500px;
@@ -355,22 +359,24 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+    overflow: hidden;
 }
 
-.card-box{
+.card-box {
     /* background-color: aqua; */
     width: 25%;
     height: 300px;
     display: flex;
     gap: 10px;
+    margin-left: 5%;
 }
 
-.images-2{
+.images-2 {
     width: 250px;
     height: 250px;
 }
 
-.href-4{
+.href-4 {
     color: black;
     font-family: Montserrat;
     text-decoration: none;
@@ -378,4 +384,30 @@
     flex-direction: column;
     gap: 10px;
     font-weight: 500;
+}
+
+.icon-box{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.icons-3{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    border: none;
+    color: black;
+    text-decoration: none;
+}
+
+.icons-3:hover{
+    background-color: black;
+    border-radius: 50%;
+    color: white;
 }

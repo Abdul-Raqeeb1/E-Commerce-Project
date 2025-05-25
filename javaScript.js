@@ -52,3 +52,6 @@ function changeImage() {
 
 setInterval(changeImage, 5000);
 
+function rightSide(){
+  document.getElementById("product-box-1").style.marginRight = "20px"
+}
