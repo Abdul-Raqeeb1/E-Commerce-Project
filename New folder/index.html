@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Touch Screen Airpods</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="product-images">
+      <img id="main-image" src="product.jpg" alt="Airpods" />
+      <div class="thumbnails">
+        <img src="product.webp" onclick="changeImage(this)" />
+        <img src="product-black.webp" onclick="changeImage(this)" />
+      </div>
+    </div>
+    <div class="product-details">
+      <h1>Touch Screen Air-pods</h1>
+      <p class="price"><span class="current-price">Rs. 3,200.00</span> <span class="old-price">Rs. 10,000.00</span></p>
+      <div class="color-options">
+        <span>Color:</span>
+        <button class="color-btn active">White</button>
+        <button class="color-btn">Black</button>
+      </div>
+      <div class="quantity-selector">
+        <button onclick="changeQuantity(-1)">-</button>
+        <input type="text" id="quantity" value="1" readonly />
+        <button onclick="changeQuantity(1)">+</button>
+      </div>
+      <div class="actions">
+        <button class="add-cart">Add to cart</button>
+        <button class="buy-now">Buy it now</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

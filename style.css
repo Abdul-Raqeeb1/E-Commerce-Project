@@ -588,3 +588,44 @@
         height: 50px;
     }
 }
+
+/* header Ends */
+
+.main-container-1{
+    background-color: blue;
+    width: 100%;
+    height: 900px;
+}
+
+.earBuds-section{
+    background-color: blueviolet;
+    width: 100%;
+    height: 800px;
+    display: flex;
+}
+
+.leftSide-1{
+    background-color: brown;
+    width: 50%;
+    height: 800px;
+}
+
+.rightSide-1{
+    background-color: red;
+    width: 50%;
+    height: 800px;
+}
+
+.main-image-1{
+    background-color: teal;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.images-4{
+    width: 500px;
+    height: 500px;
+}
