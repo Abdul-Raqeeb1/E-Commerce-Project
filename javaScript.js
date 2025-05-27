@@ -51,3 +51,11 @@ function changeImage() {
 }
 
 setInterval(changeImage, 5000);
+
+ function changeQuantity(amount) {
+      const input = document.getElementById('quantity-1');
+      let value = parseInt(input.value);
+      value += amount;
+      if (value < 1) value = 1;
+      input.value = value;
+    }
