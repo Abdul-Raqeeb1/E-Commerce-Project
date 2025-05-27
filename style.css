@@ -611,7 +611,7 @@
 }
 
 .rightSide-1 {
-    background-color: red;
+    /* background-color: red; */
     width: 50%;
     height: 800px;
 }
@@ -644,13 +644,18 @@
 }
 
 
-label {
-    display: block;
+.lable-1 {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
     margin-bottom: 8px;
     font-weight: bold;
 }
 
 .stepper-1 {
+    width: 100%;
+    height: 30px;
     display: flex;
     align-items: center;
     border: 1px solid #ccc;
@@ -676,4 +681,156 @@ label {
     font-size: 16px;
     outline: none;
     background: transparent;
+}
+
+.heading-4{
+    width: 100%;
+    height: 50px;
+    margin-top: 10%;
+    font-family: Montserrat;
+}
+
+.para-box-2{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    gap: 20px;
+    font-family: Montserrat;
+}
+
+.para-7{
+    color: rgba(255, 0, 0, 0.712);
+}
+
+.para-8{
+    color: gray;
+}
+
+.para-9{
+    width: 100%;
+    height: 50px;
+    font-family: Montserrat;
+}
+
+.btn-box-2{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.btn-3{
+    width: 70px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-4{
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: gray;
+}
+
+.btn-4:hover{
+    border: black 2px solid;
+}
+
+.btn-box-3{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 4%;
+}
+
+.btn-6{
+    width: 40%;
+    height: 50px;
+    color: black;
+    border: 1px solid black;
+    font-family: Montserrat;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+.btn-6:hover{
+    color: white;
+    background-color: black;
+
+}
+
+.btn-7{
+    width: 40%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: Montserrat;
+    transition: transform .1s;
+}
+
+.btn-7:hover {
+    -ms-transform: scale(1);
+    -webkit-transform: scale(0.6);
+    transform: scale(1.1);
+}
+
+@media (max-width:412px) {
+    .earBuds-section{
+        flex-direction: column;
+    }
+    .leftSide-1{
+        width: 100%;
+    }
+    .main-image-1{
+        justify-content: center;
+        height: 400px;
+    }
+    .images-4{
+        width: 300px;
+        height: 300px;
+    }
+    .showOff-image-1{
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+    .images-5{
+        width: 50px;
+        height: 50px;
+    }
+    .rightSide-1{
+        width: 100%;
+    }
+    .heading-4{
+        width: 90%;
+        font-size: 0.9rem;
+        margin-left: 10px;
+        overflow: hidden;
+    }
+    .para-box-2{
+        width: 100%;
+    }
+    .para-7{
+        margin-left: 10px;
+    }
+    .para-9{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .btn-box-2{
+        width: 90%;
+    }
+    .btn-3{
+        margin-left: 10px;
+    }
+    
 }
