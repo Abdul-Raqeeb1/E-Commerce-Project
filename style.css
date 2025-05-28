@@ -6,11 +6,6 @@
     /* overflow: hid; */
 }
 
-html,
-body {
-    /* overflow: hidden; */
-}
-
 /* Main Nav Start */
 
 .main-nav {
@@ -1262,4 +1257,3 @@ body {
         width: 230px;
     }
 }
-
