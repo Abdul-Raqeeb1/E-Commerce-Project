@@ -2,6 +2,13 @@
 
 * {
     margin: 0%;
+    font-family: Montserrat;
+    /* overflow: hid; */
+}
+
+html,
+body {
+    /* overflow: hidden; */
 }
 
 /* Main Nav Start */
@@ -362,12 +369,12 @@
 }
 
 .card-box {
-    background-color: white;
+    /* background-color: red; */
     width: 15%;
     height: 250px;
     border: none;
     border-radius: 20px;
-    margin-left: 10%;
+    margin-left: 5%;
     /* box-shadow: black 2px 2px 10px; */
 }
 
@@ -461,16 +468,16 @@
 .product-box-2 {
     /* background-color: yellow; */
     width: 100%;
-    height: 560px;
+    height: 500px;
     display: flex;
     overflow: scroll;
     /* align-items: center; */
 }
 
 .card-box-2 {
-    background-color: white;
+    /* background-color: red; */
     width: 25%;
-    height: 540px;
+    height: 420px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -481,7 +488,7 @@
 
 .icon-box-1 {
     /* background-color: blueviolet; */
-    width: 10%;
+    width: 12%;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -493,7 +500,7 @@
 .icons-4 {
     background-color: white;
     width: 40px;
-    height: 40px;
+    height: 35px;
     border: none;
     border-radius: 50%;
     display: flex;
@@ -511,13 +518,18 @@
 
 .images-3 {
     /* background-color: blue; */
-    width: 400px;
+    /* width: 400px; */
     height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
     /* cursor: pointer; */
     text-decoration: none;
+}
+
+.images-3-1 {
+    width: 300px;
+    height: 300px;
 }
 
 .para-4 {
@@ -581,6 +593,13 @@
 @media (max-width:412px) {
     .card-box-2 {
         width: 100%;
+        height: 420px;
+
+    }
+
+    .images-3-1 {
+        width: 300px;
+        height: 300px;
     }
 
     .btn-2 {
@@ -594,7 +613,7 @@
 .main-container-1 {
     /* background-color: blue; */
     width: 100%;
-    height: 900px;
+    height: 1340px;
 }
 
 .earBuds-section {
@@ -785,12 +804,14 @@
 }
 
 @media (max-width:412px) {
-    .main-container-1{
+    .main-container-1 {
         height: 995px;
     }
+
     .earBuds-section {
         flex-direction: column;
         gap: 0;
+        height: 1000px;
     }
 
     .leftSide-1 {
@@ -851,7 +872,7 @@
     }
 
     .quantity-box {
-        width: 100%;
+        width: 93%;
         height: 50px;
         display: flex;
     }
@@ -877,17 +898,368 @@
     .input-1 {
         width: 60%;
     }
-    .btn-box-3{
+
+    .btn-box-3 {
         display: flex;
         align-items: center;
     }
+
     .btn-6 {
         width: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .btn-7{
+
+    .btn-7 {
         width: 80%;
     }
 }
+
+.ultraWatch-section {
+    /* background-color: red; */
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.leftSide-2 {
+    background-color: white;
+    width: 40%;
+    height: 600px;
+}
+
+.rightSide-2 {
+    /* background-color: brown; */
+    width: 60%;
+    height: 600px;
+}
+
+.main-image-2 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images-6 {
+    width: 400px;
+    height: 400px;
+}
+
+.heading-5 {
+    width: 100%;
+    height: 100px;
+    font-family: Montserrat;
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    /* font-weight: 200; */
+    margin-top: 20%;
+}
+
+.para-box-3 {
+    width: 100%;
+    height: 100px;
+    color: gray;
+}
+
+.btn-box-4 {
+    width: 100%;
+    height: 100px;
+}
+
+.btn-8 {
+    /* background-color: blue; */
+    width: 40%;
+    height: 50px;
+    color: black;
+    border: none;
+    font-size: 1.6rem;
+}
+
+@media (max-width:412px) {
+    .main-container-1 {
+        height: 1790px;
+    }
+
+    .ultraWatch-section {
+        flex-direction: column;
+    }
+
+    .leftSide-2 {
+        width: 100%;
+        height: 480px;
+    }
+
+    .rightSide-2 {
+        width: 100%;
+    }
+
+    .main-image-2 {
+        height: 510px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heading-5 {
+        width: 90%;
+        margin-top: 10%;
+        font-size: 2.3rem;
+        margin-left: 10px;
+    }
+
+    .para-box-3 {
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+    .para-10 {
+        width: 90%;
+    }
+
+    .btn-8 {
+        width: 90%;
+        margin-left: 10px;
+    }
+}
+
+.main-footer {
+    background-color: black;
+    width: 100%;
+    height: 500px;
+}
+
+.footer-section {
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.leftSide-3 {
+    /* background-color: red; */
+    width: 30%;
+    height: 400px;
+}
+
+.useful-links {
+    /* background-color: yellow; */
+    width: 80%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 15%;
+    gap: 15px;
+    font-family: Montserrat;
+}
+
+.href-5 {
+    /* background-color: brown; */
+    width: 90%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.ul-3 {
+    /* background-color: yellow; */
+    width: 40%;
+    height: 250px;
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+    position: relative;
+}
+
+.li-1 {
+    display: flex;
+    position: relative;
+}
+
+.href-6 {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    position: relative;
+}
+
+.href-6:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.href-6:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+@media screen and (max-height: 300px) {
+    .ul-3 {
+        margin-top: 40px;
+    }
+}
+
+.href-7 {
+    text-decoration: none;
+    color: white;
+}
+
+.rightSide-3 {
+    /* background-color: blue; */
+    width: 70%;
+    height: 400px;
+}
+
+.eamil-box {
+    width: 80%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+    gap: 20px;
+}
+
+.heading-box-1 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 2rem;
+}
+
+.href-8 {
+    text-decoration: none;
+    color: white;
+}
+
+.para-11 {
+    color: gray;
+}
+
+.input-box-1 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.icons-5 {
+    background-color: white;
+    width: 40px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.input-2 {
+    width: 340px;
+    height: 43px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-family: Montserrat;
+}
+
+.icons-6 {
+    background-color: white;
+    width: 40px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.href-9 {
+    text-decoration: none;
+    color: black;
+}
+
+.copyright{
+    width: 100%;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+}
+
+
+
+@media (max-width:412px) {
+
+    .main-footer{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .copyright{
+        height: 80px;
+        font-size: 0.8rem;
+    }
+    .footer-section {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .leftSide-3 {
+        width: 100%;
+        height: 230px;
+    }
+
+    .useful-links {
+        margin-left: 5%;
+        height: 350px;
+    }
+
+    .ul-3 {
+        width: 45%;
+    }
+
+    .rightSide-3 {
+        width: 100%;
+    }
+
+    .eamil-box {
+        height: 230px;
+        margin-left: 5%;
+    }
+
+    .heading-box-1 {
+        font-size: 1.6rem;
+        height: 50px;
+    }
+
+    .para-11 {
+        font-size: 0.8rem;
+    }
+
+    .input-2 {
+        width: 230px;
+    }
+}
+
