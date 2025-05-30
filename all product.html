@@ -4,18 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <title>All Product</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="Images/For_Store_e0fe5454-1b73-4d2e-bde3-0f1a7a75eed7.webp" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="about.css">
-    <script src="javaScript.js"></script>
+    <link rel="stylesheet" href="all product.css">
+    <link rel="shortcut icon" href="Images/For_Store_e0fe5454-1b73-4d2e-bde3-0f1a7a75eed7.webp" type="image/x-icon">
 
 </head>
 
-<body>
+<body onload="cardMaker()">
 
     <!-- NavBar Start -->
     <nav>
@@ -103,47 +102,32 @@
 
     <!-- NavBar End -->
 
-    <!-- Container Start -->
     <container>
-        <div class="about-container">
-            <div class="about-box">
-                <div class="about-heading">
-                    <h1>About Us</h1>
-                </div>
-                <div class="about-option">
-                    <a href="" class="op-1">Home </a>
-                    <span class="op-1">></span>
-                    <a href="" class="op-1">About</a>
-                </div>
+        <div class="main-container-2">
+            <div class="leftSide-4">
+                <h1 class="heading-6">Filters</h1>
             </div>
+            <div class="rightSide-4">
+                <div class="product-box-2" id="product-box-2">
+                    <div class="card-box-2">
+                        <div class="icon-box-1">
+                            <a href="" class="icons-4"><i class="fa-regular fa-heart"></i></a>
+                        </div>
+                        <a href="" class="images-3"><img src="Images/product2-removebg-preview.png" alt="Error"
+                                class="images-3-1"></a>
+                        <a href="" class="para-4">
+                            <p>Series 9 Ultra (7 in 1)</p>
+                        </a>
+                        <div class="para-box-1">
+                            <p class="para-5">Rs.3,200.00</p>
+                            <p class="para-6"><s>Rs.6,400.00</s></p>
+                        </div>
+                    </div>
 
-            <div class="about-para-1">
-                <p class="para-15"><b>Raqeeb Tech Store </b> is Pakistan's most trusted ecommerce platform for tech
-                    products. We offer high-quality products,True Wireless Earphones, Smartwatch, Bluetooth Headphones,
-                    Bluetooth Speakers, power-banks, Gaming Headsets and much more. free cash on delivery,
-                    and a 100% satisfaction guarantee. Shop with confidence today!</p>
-
-                <p class="para-13"><b>Raqeeb Tech Store </b> is Pakistan's most trusted ecommerce platform for tech
-                    products. We offer high-quality products,True Wireless Earphones, Smartwatch, Bluetooth </p>
-                <p class="para-13">
-                    Headphones, Bluetooth Speakers, power-banks, Gaming Headsets and much more. free cash on delivery,
-                    and a 100% satisfaction guarantee. Shop with confidence today!</p>
+                </div>
             </div>
-            <div class="about-para-2">
-                <p class="para-14">Here are some of the benefits of shopping at Raqeeb Tech Store:</p>
-            </div>
-            <ul class="ul-4">
-                <li>Most trusted ecommerce platform in Pakistan</li>
-                <li>Wide selection of high-quality tech products</li>
-                <li>Free cash on delivery in Pakistan</li>
-                <li>100% satisfaction guarantee</li>
-                <li>100% Money Back guarantee</li>
-                <li>24/7 customer support</li>
-            </ul>
         </div>
     </container>
-    <!-- Container End -->
-
 
 
     <!-- Footer Start -->
@@ -204,5 +188,7 @@
     <!-- Footer End -->
 
 </body>
+
+<script src="javaScript.js"></script>
 
 </html>

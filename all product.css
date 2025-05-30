@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.main-container-2{
+    background-color: white;
+    width: 100%;
+    height: 900px;
+    display: flex;
+}
+
+.leftSide-4{
+    /* background-color: red; */
+    width: 20%;
+    height: 900px;
+}
+
+.heading-6{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightSide-4{
+    /* background-color: blue; */
+    width: 80%;
+    height: 900px;
+}
+
+#product-box-2{
+    overflow: unset;
+    flex-wrap: wrap;
+}
+
+@media (max-width:412px) {
+    .main-container-2{
+        display: block;
+        height: 2700px;
+    }
+    .leftSide-4{
+        width: 100%;
+        height: 100px;
+    }
+    .rightSide-4{
+        width: 100%;
+        height: 2600px;
+    }
+    .card-box-2{
+        width: 88%;
+    }
+    .images-3-1{
+        width: 250px;
+        height: 250px;
+    }
+}
