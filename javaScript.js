@@ -205,6 +205,8 @@ function buttonBox1(){
     document.getElementById('btn-4').style.backgroundColor = 'white'
   document.getElementById('btn-4').style.color = 'black'
 
+  document.getElementById('para-9').innerText = 'Color : White';
+
 }
 
 function buttonBox2(){
@@ -215,4 +217,7 @@ function buttonBox2(){
 
   document.getElementById('btn-3').style.backgroundColor = 'white'
   document.getElementById('btn-3').style.color = 'black'
+
+
+  document.getElementById('para-9').innerText = 'Color : Black';
 }
