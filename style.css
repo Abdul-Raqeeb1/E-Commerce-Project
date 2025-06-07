@@ -1622,7 +1622,17 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 390px) {
+    .stepper-1{
+        width: 50%;
+    }
+    .quantity-box{
+        gap: 20px;
+        width: 100%;
+    }
+    .images-6{
+        width: 370px;
+    }
     .heading-5 {
         font-size: 1.6rem;
     }
