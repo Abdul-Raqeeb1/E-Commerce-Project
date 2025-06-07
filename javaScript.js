@@ -125,7 +125,7 @@ function img1() {
   let images1 = document.getElementById('main-image-1');
   images1.innerHTML = `<img src="Images/EarBuds/resized_71d7e593-b788-46a1-ac44-9123ba6d1ac8.webp" alt="Error" class="images-4">`
 
-  document.getElementById('style-1').style.border = '2px solid black';
+  document.getElementById('style-1').style.border = '3px solid red';
   document.getElementById('style-2').style = 'none'
   document.getElementById('style-3').style = 'none'
   document.getElementById('style-4').style = 'none'
@@ -138,7 +138,7 @@ function img2() {
   let images2 = document.getElementById('main-image-1');
   images2.innerHTML = `<a href="#main-image-1"><img src="Images/EarBuds/s-l1600.webp" alt="EarBuds" class="images-4"></a>`
 
-  document.getElementById('style-2').style.border = '2px solid black';
+  document.getElementById('style-2').style.border = '3px solid red';
   document.getElementById('style-1').style = 'none'
   document.getElementById('style-3').style = 'none'
   document.getElementById('style-4').style = 'none'
@@ -151,7 +151,7 @@ function img3() {
   let images3 = document.getElementById('main-image-1');
   images3.innerHTML = `<a href="#main-image-1"><img src="Images/EarBuds/s-l1600_1.webp" alt="EarBuds" class="images-4"></a>`
 
-  document.getElementById('style-3').style.border = '2px solid black';
+  document.getElementById('style-3').style.border = '3px solid red';
   document.getElementById('style-1').style = 'none'
   document.getElementById('style-2').style = 'none'
   document.getElementById('style-4').style = 'none'
@@ -163,7 +163,7 @@ function img4() {
   let images4 = document.getElementById('main-image-1');
   images4.innerHTML = `<a href="#main-image-1"><img src="Images/EarBuds/s-l1600_2.webp" alt="EarBuds" class="images-4"></a>`
 
-  document.getElementById('style-4').style.border = '2px solid black';
+  document.getElementById('style-4').style.border = '3px solid red';
   document.getElementById('style-1').style = 'none'
   document.getElementById('style-3').style = 'none'
   document.getElementById('style-2').style = 'none'
@@ -175,7 +175,7 @@ function img5() {
   let images5 = document.getElementById('main-image-1');
   images5.innerHTML = `<a href="#main-image-1"><img src="Images/EarBuds/s-l1600_3.webp" alt="EarBuds" class="images-4"></a>`
 
-  document.getElementById('style-5').style.border = '2px solid black';
+  document.getElementById('style-5').style.border = '3px solid red';
   document.getElementById('style-1').style = 'none'
   document.getElementById('style-3').style = 'none'
   document.getElementById('style-2').style = 'none'
@@ -187,7 +187,7 @@ function img6() {
   let images6 = document.getElementById('main-image-1');
   images6.innerHTML = `<a href="#main-image-1"><img src="Images/EarBuds/s-l1600_4.webp" alt="EarBuds" class="images-4"></a>`
 
-  document.getElementById('style-6').style.border = '2px solid black';
+  document.getElementById('style-6').style.border = '3px solid red';
   document.getElementById('style-1').style = 'none'
   document.getElementById('style-2').style = 'none'
   document.getElementById('style-3').style = 'none'
@@ -220,4 +220,14 @@ function buttonBox2(){
 
 
   document.getElementById('para-9').innerText = 'Color : Black';
+}
+
+function leftSide() {
+    const slide = document.getElementById('product-box-1');
+    slide.scrollBy({ left: -300, behavior: 'smooth' });
+}
+
+function rightSide() {
+    const slide = document.getElementById('product-box-1');
+    slide.scrollBy({ left: 300, behavior: 'smooth' });
 }

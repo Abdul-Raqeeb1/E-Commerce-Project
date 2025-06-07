@@ -354,23 +354,21 @@
 }
 
 #product-box-1 {
-    /* background-color: red; */
     width: 100%;
     height: 450px;
     display: flex;
     align-items: center;
-    overflow: scroll;
-
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .card-box {
     /* background-color: red; */
     width: 15%;
     height: 250px;
-    border: none;
+    margin-left: 30px;
+    flex-shrink: 0;
     border-radius: 20px;
-    margin-left: 5%;
-    /* box-shadow: black 2px 2px 10px; */
 }
 
 .images-2 {
@@ -384,6 +382,7 @@
     font-family: Montserrat;
     text-decoration: none;
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 10px;
 }
@@ -1261,5 +1260,379 @@
 
     .input-2 {
         width: 230px;
+    }
+}
+
+/* Existing CSS remains unchanged above */
+
+/* --- Custom Responsive Media Queries --- */
+
+@media (max-width: 1230px) {
+    .card-box {
+        width: 18%;
+    }
+
+    .card-box-2 {
+        width: 30%;
+    }
+
+    .leftSide-3 {
+        width: 40%;
+    }
+
+    .showOff-image-1 {
+        justify-content: normal;
+    }
+}
+
+@media (max-width: 1024px) {
+    .ul-1 {
+        font-size: 1rem;
+    }
+
+    .card-box {
+        width: 22%;
+    }
+
+    .card-box-2 {
+        width: 35%;
+    }
+
+    .main-option {
+        flex-wrap: wrap;
+    }
+
+    .leftSide-3 {
+        width: 55%;
+    }
+
+    .images-5 {
+        width: 70px;
+        height: 70px;
+    }
+
+    .btn-6 {
+        width: 50%;
+    }
+
+    .btn-7 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 900px) {
+    .main-nav {
+        height: 140px;
+    }
+
+    .nav-2 {
+        display: none;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+
+    .main-logo {
+        width: 50%;
+    }
+
+    .main-section {
+        display: none;
+    }
+
+    .main-option {
+        width: 25%;
+    }
+
+    #deactive-icon {
+        display: none;
+    }
+    .main-image-1{
+        height: 490px;
+    }
+    .images-4{
+        width: 400px;
+        height: 400px;
+    }
+
+    .ul-1 {
+        gap: 10px;
+    }
+
+    .card-box {
+        width: 28%;
+    }
+
+    .card-box-2 {
+        width: 45%;
+    }
+}
+
+@media (max-width: 730px) {
+    .main-option {
+        width: 25%;
+    }
+
+    .main-logo {
+        width: 50%;
+        justify-content: center;
+    }
+
+    .card-box {
+        width: 35%;
+    }
+        .main-container-1 {
+        height: 1970px;
+    }
+
+    .earBuds-section {
+        flex-direction: column;
+        gap: 0;
+        height: 1060px;
+    }
+
+    .leftSide-1 {
+        width: 100%;
+    }
+
+    .main-image-1 {
+        justify-content: center;
+        height: 400px;
+    }
+
+    .images-4 {
+        width: 360px;
+        height: 360px;
+    }
+
+    .showOff-image-1 {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .images-5 {
+        width: 80px;
+        height: 80px;
+    }
+
+    .rightSide-1 {
+        width: 100%;
+    }
+
+    .heading-4 {
+        width: 90%;
+        font-size: 0.9rem;
+        margin-left: 10px;
+        overflow: hidden;
+    }
+
+    .para-box-2 {
+        width: 100%;
+    }
+
+    .para-7 {
+        margin-left: 10px;
+    }
+
+    .para-9 {
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    .btn-box-2 {
+        width: 90%;
+    }
+
+    .btn-3 {
+        margin-left: 10px;
+    }
+
+    .quantity-box {
+        width: 93%;
+        height: 50px;
+        display: flex;
+    }
+
+    .lable-1 {
+        width: 20%;
+        margin-left: 10px;
+    }
+
+    .stepper-1 {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-5 {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .input-1 {
+        width: 60%;
+    }
+
+    .btn-box-3 {
+        display: flex;
+        align-items: center;
+    }
+
+    .btn-6 {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-7 {
+        width: 80%;
+    }
+
+
+    .ultraWatch-section{
+        flex-direction: column;
+        height: 920px;
+    }
+    .leftSide-2{
+        width: 100%;
+        height: 450px;
+    }
+    .main-image-2{
+        height: 450px;
+    }
+    .rightSide-2{
+        width: 100%;
+        height: 460px;
+    }
+    .heading-5{
+        margin-top: 15%;
+    }
+    .para-10{
+        font-size: 0.9rem;
+    }
+
+    .main-footer{
+        height: 710px;
+    }
+    .footer-section{
+        flex-direction: column;
+        height: 670px;
+    }
+    .leftSide-3{
+        width: 100%;
+        height: 290px;
+    }
+    .rightSide-3{
+        width: 100%;
+        height: 380px;
+    }
+    .copyright{
+        height: 40px;
+    }
+    .btn-2{
+        width: 40%;
+    }
+}
+
+@media (max-width: 580px) {
+    .card-box {
+        width: 45%;
+    }
+
+    .card-box-2 {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .heading-2,
+    .heading-3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .mobile-img{
+        display: flex;
+    }
+    .desktop-img{
+        display: none;
+    }
+    .images-5{
+        width: 70px;
+        height: 70px;
+    }
+    .para-3 {
+        font-size: 1.2rem;
+    }
+
+    .images-2 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .btn-2 {
+        width: 70%;
+    }
+}
+
+@media (max-width: 450px) {
+    .footer-section{
+        height: 630px;
+    }
+    .useful-links{
+        width: 90%;
+        height: 320px;
+        margin-left: 10%;
+    }
+     .images-5{
+        width: 50px;
+        height: 50px;
+    }
+    .rightSide-3{
+        height: 325px;
+    }
+    .eamil-box{
+        height: 350px;
+    }
+    .input-2{
+        width: 240px;
+    }
+    .copyright{
+        font-size: 0.8rem;
+    }
+    .heading-5{
+        font-size: 2rem;
+    }
+    .icons-2 {
+        font-size: 1.1rem;
+    }
+
+    .icons-3 {
+        gap: 20px;
+    }
+
+    .images-3-1 {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 375px) {
+    .heading-5 {
+        font-size: 1.6rem;
+    }
+
+    .input-2 {
+        width: 200px;
+    }
+
+    .btn-8 {
+        font-size: 1.2rem;
+        width: 100%;
     }
 }
