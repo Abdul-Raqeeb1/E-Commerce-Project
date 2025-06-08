@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-.about-container{
+.about-container {
     /* background-color: red; */
     width: 100%;
     height: 600px;
 }
 
-.about-box{
+.about-box {
     width: 100%;
     height: 150px;
     display: flex;
@@ -14,7 +14,7 @@
     gap: 20px;
 }
 
-.about-heading{
+.about-heading {
     width: 100%;
     height: 100px;
     display: flex;
@@ -23,7 +23,7 @@
     font-family: Montserrat;
 }
 
-.about-option{
+.about-option {
     /* background-color: blue; */
     width: 100%;
     height: 50px;
@@ -32,12 +32,12 @@
     gap: 20px;
 }
 
-.op-1{
+.op-1 {
     text-decoration: none;
     color: gray;
 }
 
-.about-para-1{
+.about-para-1 {
     /* background-color: blue; */
     width: 100%;
     height: 100px;
@@ -46,29 +46,30 @@
     flex-direction: column;
 }
 
-.para-13{
+.para-13 {
     font-size: 0.9rem;
     display: flex;
     justify-content: center;
     /* align-items: center; */
 }
 
-.about-para-2{
+.about-para-2 {
     width: 100%;
     height: 50px;
 }
 
-.para-14{
+.para-14 {
     width: 45%;
     height: 50px;
     display: flex;
     justify-content: end;
 }
-.para-15{
+
+.para-15 {
     display: none;
 }
 
-.ul-4{
+.ul-4 {
     /* background-color: blue; */
     width: 80%;
     height: 300px;
@@ -79,28 +80,77 @@
 }
 
 @media (max-width:412px) {
-    .about-box{
+    .about-box {
         height: 170px;
     }
-    .about-para-1{
+
+    .about-para-1 {
         height: 170px;
         font-size: 0.9rem;
     }
-    .para-13{
+
+    .para-13 {
         display: none;
     }
-    .para-15{
+
+    .para-15 {
         display: block;
         margin-left: 10px;
     }
-    .para-14{
+
+    .para-14 {
         width: 90%;
         margin-left: 10px;
         font-size: 0.8rem;
     }
-    .ul-4{
+
+    .ul-4 {
         width: 81%;
         margin-left: 6%;
         font-size: 0.9rem;
+    }
+}
+
+@media (max-width:1200px) {
+    .para-15 {
+        display: block;
+    }
+
+    .para-13 {
+        display: none;
+    }
+}
+
+@media (max-width:930px) {
+    .about-para-1 {
+        height: 170px;
+    }
+
+    .para-14 {
+        width: 100%;
+        justify-content: start;
+    }
+}
+
+@media (max-width:570px) {
+    .para-14 {
+        font-size: 0.8rem;
+    }
+
+    .ul-4 {
+        margin-left: 10%;
+    }
+}
+
+@media (max-width:467px) {
+    .ul-4 {
+        margin-left: 1%;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:412px) {
+    .para-14 {
+        width: 95%;
     }
 }
